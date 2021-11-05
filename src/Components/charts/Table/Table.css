@@ -1,0 +1,67 @@
+.table > div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.table > div span {
+  letter-spacing: 0.11px;
+  color: #131523;
+  opacity: 1;
+}
+.table > div button {
+  background-color: #fff;
+  border: 1px solid black;
+  padding: 5px 15px !important;
+  width: 100px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.table-main {
+  margin-top: 30px;
+  border: none;
+  outline: none;
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.table-head div,
+.table-body div {
+  font-weight: 600;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.table-head div {
+  background: #8884d8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  padding: 20px 14px !important;
+}
+.table-head div span,
+.table-body div span {
+  width: 20%;
+  font-size: 11px;
+  color: #2d2d2d;
+}
+.table-head div span {
+  color: #fff;
+}
+.table-body div {
+  color: #2d2d2d;
+  padding: 10px 15px !important;
+  font-size: 13px;
+  font-weight: 400;
+  margin-bottom: 5px;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #f3f3f3;
+  border-radius: 4px;
+  opacity: 1;
+}

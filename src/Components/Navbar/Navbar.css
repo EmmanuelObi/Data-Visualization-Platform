@@ -1,0 +1,39 @@
+* {
+  padding: 0 !important;
+  box-sizing: border-box;
+  transition: 300ms linear ease-in-out;
+}
+.navbar {
+  padding: 15px !important;
+  background-color: #ac0e28 !important;
+}
+.navbar * {
+  color: #fff !important;
+}
+.navbar .navbar-brand {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #013766 !important;
+}
+.navbar ul {
+  margin-right: 100px;
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar ul li a:hover {
+  color: #013766 !important;
+}
+@media only screen and (max-width: 990px) {
+  .navbar ul {
+    width: 85%;
+    text-align: left;
+  }
+  .navbar .navbar-brand {
+    width: 40%;
+  }
+}
